@@ -6,4 +6,4 @@
 4. s3.annotzhuoyue.ipynb was used for the annotation whether a manuscript is an outstanding action journal;
 5. s4.mergePMIDs.ipynb was used to merge all paper informations；
 6. s5.highcitedAuthors.ipynb was used to merge the highly cited scientists from previous papers；
-7. s7.scplot.Scanpy.ipynb was used for the single-cell analysis.
+7. s6.scplot.Scanpy.ipynb was used for the single-cell analysis.
