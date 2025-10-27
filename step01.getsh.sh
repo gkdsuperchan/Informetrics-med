@@ -1,3 +1,4 @@
+perl ./getsh.pl 2024
 
 for i in `ls /home/chench/PKUshenzhen/7.RA/01.Pubmed/method2/pyshs.2025/run.2025-01*.py`;do echo "python $i >>$i.log && echo finished $i at \`date\`"; done >/home/chench/PKUshenzhen/7.RA/01.Pubmed/method2/shells/run.getpaperinfo.202501.sh
 for i in `ls /home/chench/PKUshenzhen/7.RA/01.Pubmed/method2/pyshs.2025/run.2025-02*.py`;do echo "python $i >>$i.log && echo finished $i at \`date\`"; done >/home/chench/PKUshenzhen/7.RA/01.Pubmed/method2/shells/run.getpaperinfo.202502.sh
