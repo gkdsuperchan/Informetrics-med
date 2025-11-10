@@ -14,6 +14,6 @@
 
 7. s5.highcitedAuthors.ipynb was used to merge the highly cited scientists from previous papers; 
 
-8. Next, get a matrix data using step02.getmatrix.sh;
+8. Next, get matrix data using step02.getmatrix.sh for machine learning and single-cell analysis. Firstly, construct a feature matrix composed of 21 features of all the manuscript for machine learning and modeling (using the script creatematrix.v10.pl). Then, obtain the first author's affiliation of each manuscript as a newly added feature By adding the above 21 features, a single-cell matrix composed of the author's affiliation and the manuscript's own 21 features was constructed for single-cell analysis (using the script creatematrix.v7.3.pl).;
 
-9. Finally, s6.scplot.Scanpy.ipynb was used for the single-cell analysis use the matrix data.
+9. Finally, s6.scplot.Scanpy.ipynb was used for the single-cell analysis use the above mentioned matrix data.
